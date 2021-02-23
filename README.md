@@ -1,3 +1,17 @@
+# Fork Notes
+
+This was forked from https://github.com/wmnnd/nginx-certbot.git It is used as part of
+an Ansible playbook
+
+The changes in this fork are as follows:
+
+1.  __DOMAIN_NAME__ is used for the registered DNS name that points to the server this
+    service will run on
+	__DOCKER_SERVICE_NAME__ is the name of the services the WAR file run inside of
+
+2. The architecture is composed of services that are also included as one large project,
+   so docker-compose commands include a -p __DOCKER_SERVICE_NAME__ option
+
 # Boilerplate for nginx with Let’s Encrypt on docker-compose
 
 > This repository is accompanied by a [step-by-step guide on how to
