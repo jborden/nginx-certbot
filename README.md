@@ -5,12 +5,12 @@ an Ansible playbook
 
 The changes in this fork are as follows:
 
-1.  __DOMAIN_NAME__ is used for the registered DNS name that points to the server this
+1.  `__DOMAIN_NAME__` is used for the registered DNS name that points to the server this
     service will run on
-	__DOCKER_SERVICE_NAME__ is the name of the services the WAR file run inside of
+    `__DOCKER_SERVICE_NAME__` is the name of the services the WAR file run inside of
 
 2. The architecture is composed of services that are also included as one large project,
-   so docker-compose commands include a -p __DOCKER_SERVICE_NAME__ option
+   so docker-compose commands include a -p `__DOCKER_SERVICE_NAME__` option
 
 # Boilerplate for nginx with Let’s Encrypt on docker-compose
 
